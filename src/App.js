@@ -16,7 +16,7 @@ export class App extends Component {
   async componentDidMount() {
     try {
       const response = await fetch(
-        "http://my-json-server.typicode.com/isabroch/shopData/products"
+        "https://my-json-server.typicode.com/isabroch/shopData/products"
       );
       if (!response.ok) {
         throw Error(response.statusText);
